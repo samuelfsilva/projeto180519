@@ -1,11 +1,13 @@
 //import liraries
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import cabecalho from './src/components/cabecalho';
 
 // create a component
 class App extends Component {
   render() {
     return (
+      <cabecalho />
       <View style={styles.container}>
         <Text>App</Text>
       </View>
